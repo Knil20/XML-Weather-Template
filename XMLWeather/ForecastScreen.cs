@@ -19,7 +19,13 @@ namespace XMLWeather
 
         public void displayForecast()
         {
+            date1.Text = Form1.dayList[1].date;
+            max1.Text = Form1.dayList[1].tempHigh;
+            min1.Text = Form1.dayList[1].tempLow;
 
+            date2.Text = Form1.dayList[2].date;
+            max2.Text = Form1.dayList[2].tempHigh;
+            min2.Text = Form1.dayList[2].tempLow;
         }
 
         private void label3_Click(object sender, EventArgs e)

@@ -19,6 +19,10 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
+            cityOutput.Text = Form1.dayList[0].location;
+            tempLabel.Text = Form1.dayList[0].currentTemp;
+            minLabel.Text = Form1.dayList[0].tempLow;
+            maxLabel.Text = Form1.dayList[0].tempHigh;
 
         }
 
