@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CitySearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CitySearch.Designer.cs">
+      <DependentUpon>CitySearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="CurrentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CitySearch.resx">
+      <DependentUpon>CitySearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CurrentScreen.resx">
       <DependentUpon>CurrentScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +111,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SnClipArt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RClipArt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CClipArt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PCClipArt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SunClipArt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TSClipArt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunsun-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
